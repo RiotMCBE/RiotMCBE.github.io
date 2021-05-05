@@ -23,6 +23,7 @@
 }
 
 .nav-link a{
+    text-anchor: middle;
     height: 10px;
     color:rgb(189, 145, 33);
     font-size: 1em;
@@ -49,4 +50,13 @@
 .nav-link a:hover{
     color: rgb(255, 222, 38);
     font-size: 1.3em;
+}
+
+.staff-member{
+    
+    display: flex;
+}
+
+.staff-member > .profile-pic{
+    height: 10cm;
 }
